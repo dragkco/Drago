@@ -19,7 +19,7 @@ client.on('message', message => {
        message.reply('https://cdn.discordapp.com/attachments/595627324255240192/618259005806215196/Z.png');
 
        }
-{
+ client.on('message', message => {
 
     if (message.content === '$help') {
 

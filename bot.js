@@ -19,7 +19,13 @@ client.on('message', message => {
        message.reply('https://cdn.discordapp.com/attachments/595627324255240192/618259005806215196/Z.png');
 
        }
+{
 
+    if (message.content === '$help') {
+
+       message.reply('https://i.imgflip.com/38cs6n.jpg');
+
+       }
 });
 
  
